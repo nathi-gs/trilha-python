@@ -29,11 +29,11 @@ Se quiser rodar algum dos scripts localmente, siga os passos abaixo:
    git clone [https://github.com/seu-usuario/bolsa-futuro-digital-python.git](https://github.com/seu-usuario/bolsa-futuro-digital-python.git)
 
 2. Acesse a pasta do projeto:
-   bash
+   ```bash
    cd bolsa-futuro-digital-python
   
 3. Navegue até a pasta desejada e execute o script (exemplo):
-   bash
+   ```bash
    python exercicios/aula01_hello_world.py
 
 ---
