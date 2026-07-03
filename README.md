@@ -16,6 +16,7 @@ Para manter tudo organizado e facilitar a consulta, o repositório está dividid
 * 📁 **`teoria/`**: Resumos, sintaxes, anotações de aulas e conceitos fundamentais da linguagem.
 * 📁 **`exercicios/`**: Scripts focados na resolução dos desafios e listas de exercícios propostos no curso.
 * 📁 **`projetos/`**: Aplicações um pouco mais elaboradas, unindo os conceitos aprendidos em pequenos projetos práticos.
+* 📁 **`git-github/`**: Guia de comandos rápidos, conceitos de versionamento e anotações sobre o uso do Git e GitHub.
 
 
 ## 🛠️ Tecnologias Utilizadas
@@ -29,15 +30,15 @@ Se quiser rodar algum dos scripts localmente, siga os passos abaixo:
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/seu-usuario/bolsa-futuro-digital-python.git](https://github.com/seu-usuario/bolsa-futuro-digital-python.git)
+   git clone https://github.com/nathi-gs/python-fundamentals.git
 
 2. Acesse a pasta do projeto:
    ```bash
-   cd bolsa-futuro-digital-python
+   cd python-fundamentals
   
 3. Navegue até a pasta desejada e execute o script (exemplo):
    ```bash
-   python exercicios/aula01_hello_world.py
+   python 0_calculadora_notas.py
 
 ---
 
