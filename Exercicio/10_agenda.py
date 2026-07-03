@@ -27,10 +27,28 @@ def adicionar_tarefa(tarefas):
 def listar_tarefas(tarefas):
     if len(tarefas) == 0:
         print("\nNenhuma tarefa encontrada.")
+        return
+    
+    tarefas.sort
+
+    print("\nTAREFAS: ")
+    for i, t in enumerate(tarefas):
+        print(f"{i + 1}. {t["descrição"]}")
 
 def remover_tarefa(tarfeas):
-    pass
+    if len(tarefas) == 0:
+        print("\nNenhuma tarefa para remover.\n")
+    
+    listar_tarefas(tarefas)
+    escolha = input("\nDigite o número da tarefa pare ser removida: ")
 
+    while not (escolha.isdigit() and 1 <= int(escolha) <= len(tarefas)):
+        print("\nNúmero inválido, tente novamente!")
+        escolha = input("\nDigite o número valido.")
+    
+    indice = int(escolha) - 1
+    del tarefas[indice]
+    print("\n Tarefa removida com sucesso!")
 
 def main():
     tarefas = []
@@ -65,4 +83,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
