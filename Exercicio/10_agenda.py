@@ -15,18 +15,18 @@ Utilizar função
 """
 
 def adicionar_tarefa(tarefas):
-    descricao = input("\nDescrição da tarefa: ")
+    descricao = input("\nDescrição da tarefa: \n")
 
     tarefa = {
         "descrição": descricao
     }
 
     tarefas.append(tarefa)
-    print("\nTarefa adicionada com sucesso!")
+    print("\nTarefa adicionada com sucesso!\n")
 
 def listar_tarefas(tarefas):
     if len(tarefas) == 0:
-        print("\nNenhuma tarefa encontrada.")
+        print("\nNenhuma tarefa encontrada.\n")
         return
     
     tarefas.sort
@@ -35,20 +35,20 @@ def listar_tarefas(tarefas):
     for i, t in enumerate(tarefas):
         print(f"{i + 1}. {t["descrição"]}")
 
-def remover_tarefa(tarfeas):
+def remover_tarefa(tarefas):
     if len(tarefas) == 0:
         print("\nNenhuma tarefa para remover.\n")
     
     listar_tarefas(tarefas)
-    escolha = input("\nDigite o número da tarefa pare ser removida: ")
+    escolha = input("\nDigite o número da tarefa pare ser removida: \n")
 
     while not (escolha.isdigit() and 1 <= int(escolha) <= len(tarefas)):
-        print("\nNúmero inválido, tente novamente!")
-        escolha = input("\nDigite o número valido.")
+        print("\nNúmero inválido, tente novamente!\n")
+        escolha = input("\nDigite o número valido.\n")
     
     indice = int(escolha) - 1
     del tarefas[indice]
-    print("\n Tarefa removida com sucesso!")
+    print("\n Tarefa removida com sucesso!\n")
 
 def main():
     tarefas = []
@@ -76,9 +76,7 @@ def main():
             break 
             
         else:
-            print("Opção inválida! Digite um número de 1 a 5.")
-
-
+            print("Opção inválida! Digite um número de 1 a 5.\n")
 
 
 if __name__ == "__main__":
