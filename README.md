@@ -13,14 +13,14 @@ O propósito deste repositório é servir como um diário de bordo do meu aprend
 
 Para manter tudo organizado e facilitar a consulta, o repositório está dividido da seguinte forma:
 
-* 📁 **`teoria/`**: Resumos, sintaxes, anotações de aulas e conceitos fundamentais da linguagem.
-* 📁 **`exercicios/`**: Scripts focados na resolução dos desafios e listas de exercícios propostos no curso.
-* 📁 **`projetos/`**: Aplicações um pouco mais elaboradas, unindo os conceitos aprendidos em pequenos projetos práticos.
 * 📁 **`git-github/`**: Guia de comandos rápidos, conceitos de versionamento e anotações sobre o uso do Git e GitHub.
+* 📁 **`01-fundamentos/`**: Conceitos iniciais da linguagem, sintaxe básica, estruturas condicionais/de repetição, manipulação de coleções (listas, conjuntos, dicionários) e funções.
+* 📁 **`02-orientacao-objetos/`**: Códigos e estudos focados no paradigma de Programação Orientada a Objetos (POO), explorando pilares como Classes, Objetos, Encapsulamento, Herança e Polimorfismo.
 
 
-## 🛠️ Tecnologias Utilizadas
-* **Linguagem:** Python 3.12.3
+## 🛠️ Tecnologias e Paradigmas Estudados
+* **Linguagem:** Python 3.x
+* **Paradigmas:** Estruturado, Funcional (básico) e Orientado a Objetos (POO)
 * **Versionamento:** Git e GitHub
 
 
