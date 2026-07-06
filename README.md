@@ -1,12 +1,14 @@
-# Python Fundamentals
+# Trilha Python
 # 🚀 Bolsa Futuro Digital - Trilha Python
 
 Bem-vindo(a) ao meu repositório de estudos! Este espaço foi criado para documentar toda a minha trajetória e evolução no programa **Bolsa Futuro Digital**, registrando o aprendizado da linguagem Python desde os conceitos mais básicos até a aplicação prática.
 
 ---
 
+
 ## 🎯 Objetivo
 O propósito deste repositório é servir como um diário de bordo do meu aprendizado e um portfólio da minha evolução com a programação. Aqui você encontrará minhas anotações, lógicas de resolução de problemas e os códigos que desenvolvi ao longo das aulas.
+
 
 
 ## 📂 Estrutura do Repositório
@@ -18,10 +20,12 @@ Para manter tudo organizado e facilitar a consulta, o repositório está dividid
 * 📁 **`02-orientacao-objetos/`**: Códigos e estudos focados no paradigma de Programação Orientada a Objetos (POO), explorando pilares como Classes, Objetos, Encapsulamento, Herança e Polimorfismo.
 
 
+
 ## 🛠️ Tecnologias e Paradigmas Estudados
 * **Linguagem:** Python 3.x
 * **Paradigmas:** Estruturado, Funcional (básico) e Orientado a Objetos (POO)
 * **Versionamento:** Git e GitHub
+
 
 
 ## ⚙️ Como executar os códigos
