@@ -1,5 +1,5 @@
-import livro
-import usuario
+from livro import Livro
+from usuario import Usuario
 
 def listar_livros_emprestados(self):
         if not self.__livros_emprestados:

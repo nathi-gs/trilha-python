@@ -5,13 +5,13 @@ class Usuario:
         self.__livros_emprestados = []
     
     def get_nome(self):
-        return self.nome
+        return self.__nome
     
     def get_matricula(self):
-        return self.matricula
+        return self.__matricula
     
     def set_nome(self, novo_nome):
-        self.nome = novo_nome
+        self.__nome = novo_nome
     
     def set_matricula(self, nova_matricula):
-        self.matricula = nova_matricula
+        self.__matricula = nova_matricula

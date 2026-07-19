@@ -1,5 +1,5 @@
-import livro
-import usuario
+from livro import Livro
+from usuario import Usuario
 
 def devolver_livro(self, id_livro):
         for livro in self.__livros_emprestados:
